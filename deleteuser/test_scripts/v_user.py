@@ -1,3 +1,9 @@
+###########################################################################################################################
+# This multi mechanize script is used to delete 1 document at a  time from MongoDB. 
+# 
+# Test: deleteuser
+# Developed by: Tinniam V Ganesh                        Date: 04 Nov 2014
+############################################################################################################################
 import mechanize 
 import time
 import random
@@ -14,7 +20,7 @@ class Transaction(object):
  
     	# don"t bother with robots.txt 
     	br.set_handle_robots(False) 
-        print("Hello")
+        
     	br.addheaders = [("User-agent", "Mozilla/5.0Compatible")]
 
     	# start the timer 
@@ -51,7 +57,8 @@ class Transaction(object):
         # submit the form 
         resp = br.submit() 
         resp.read() 
-    
+        print("Removed")
+
         # stop the timer 
         latency = time.time() - start_timer  
 

@@ -1,3 +1,8 @@
+###########################################################################################################################
+# This multi mechanize script is used to add documents to MongoDB. The Firstname, Lastname and Mobile are generated randomly.
+# This is used to insert documents into the MongoDB database for unique records.
+# Developed by: Tinniam V Ganesh                        Date: 04 Nov 2014
+############################################################################################################################
 import mechanize 
 import time
 import random
@@ -14,7 +19,7 @@ class Transaction(object):
  
     	# don"t bother with robots.txt 
     	br.set_handle_robots(False) 
-        print("Hello")
+        print("Rendering new user")
     	br.addheaders = [("User-agent", "Mozilla/5.0Compatible")]
 
     	# start the timer 
@@ -30,7 +35,7 @@ class Transaction(object):
         latency = time.time() - start_timer
 
         # store the custom timer 
-        self.custom_timers["Load_Front_Page"] = latency
+        self.custom_timers["Load Add User Page"] = latency
 
         # think-time 
         time.sleep(2)
@@ -61,8 +66,11 @@ class Transaction(object):
         # start the timer 
         start_timer = time.time() 
     
+
         # submit the form 
         resp = br.submit() 
+        print("Submitted.")
+
         resp.read() 
     
         # stop the timer 
@@ -70,7 +78,7 @@ class Transaction(object):
 
     
         # store the custom timer 
-        self.custom_timers["Search"] = latency
+        self.custom_timers["Add User"] = latency
     
         # think-time 
         time.sleep(2)
