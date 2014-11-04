@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Multi-Mechanize - Results</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="Content-Language" content="en" />
+    <style type="text/css">
+        body {
+            background-color: #FFFFFF;
+            color: #000000;
+            font-family: Verdana, sans-serif;
+            font-size: 11px;
+            padding: 5px;
+        }
+        h1 {
+            font-size: 16px;
+            background: #FF9933;
+            margin-bottom: 0;
+            padding-left: 5px;
+            padding-top: 2px;
+        }
+        h2 {
+            font-size: 13px;
+            background: #C0C0C0;
+            padding-left: 5px;
+            margin-top: 2em;
+            margin-bottom: .75em;
+        }
+        h3 {
+            font-size: 12px;
+            background: #EEEEEE;
+            padding-left: 5px;
+            margin-bottom: 0.5em;
+        }
+        h4 {
+            font-size: 11px;
+            padding-left: 20px;
+            margin-bottom: 0;
+        }
+        p {
+            margin: 0;
+            padding: 0;
+        }
+        table {
+            margin-left: 10px;
+        }
+        td {
+            text-align: right;
+            color: #000000;
+            background: #FFFFFF;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 0;
+        }
+        th {
+            text-align: center;
+            padding-right: 10px;
+            padding-left: 10px;
+            color: #000000;
+            background: #FFFFFF;
+        }
+        div.summary {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+<h1>Performance Results Report</h1>
+<h2>Summary</h2>
+<div class="summary">
+<b>transactions:</b> 1097<br />
+<b>errors:</b> 1<br />
+<b>run time:</b> 300 secs<br />
+<b>rampup:</b> 0 secs<br /><br />
+<b>test start:</b> 2014-11-04 16:28:36<br />
+<b>test finish:</b> 2014-11-04 16:33:30<br /><br />
+<b>time-series interval:</b> 10 secs<br /><br /><br />
+<b>workload configuration:</b><br /><br />
+<table>
+<tr><th>group name</th><th>threads</th><th>script name</th></tr>
+<tr><td>user_group-1</td><td>10</td><td>v_user.py</td></tr>
+<tr><td>user_group-2</td><td>10</td><td>v_user.py</td></tr>
+</table>
+</div>
+<h2>All Transactions</h2>
+<h3>Transaction Response Summary (secs)</h3>
+<table>
+<tr><th>count</th><th>min</th><th>avg</th><th>80pct</th><th>90pct</th><th>95pct</th><th>max</th><th>stdev</th></tr>
+<tr><td>1097</td><td>5.110</td><td>5.522</td><td>5.817</td><td>6.083</td><td>6.832</td><td>21.018</td><td>0.826</td></tr>
+</table>
+<h3>Interval Details (secs)</h3>
+<table>
+<tr><th>interval</th><th>count</th><th>rate</th><th>min</th><th>avg</th><th>80pct</th><th>90pct</th><th>95pct</th><th>max</th><th>stdev</th></tr>
+<tr><td>1</td><td>40</td><td>4.00</td><td>5.205</td><td>6.336</td><td>6.814</td><td>7.225</td><td>9.889</td><td>9.937</td><td>1.022</td></tr>
+<tr><td>2</td><td>36</td><td>3.60</td><td>5.198</td><td>5.904</td><td>5.957</td><td>6.828</td><td>7.028</td><td>7.184</td><td>0.455</td></tr>
+<tr><td>3</td><td>31</td><td>3.10</td><td>5.171</td><td>6.159</td><td>7.016</td><td>7.224</td><td>7.376</td><td>8.318</td><td>0.721</td></tr>
+<tr><td>4</td><td>30</td><td>3.00</td><td>5.739</td><td>6.006</td><td>6.073</td><td>6.771</td><td>6.860</td><td>6.917</td><td>0.307</td></tr>
+<tr><td>5</td><td>37</td><td>3.70</td><td>5.285</td><td>6.268</td><td>6.841</td><td>7.702</td><td>8.827</td><td>9.328</td><td>0.951</td></tr>
+<tr><td>6</td><td>35</td><td>3.50</td><td>5.119</td><td>5.746</td><td>5.855</td><td>5.868</td><td>5.935</td><td>5.969</td><td>0.215</td></tr>
+<tr><td>7</td><td>33</td><td>3.30</td><td>5.157</td><td>5.687</td><td>5.852</td><td>5.914</td><td>5.971</td><td>6.038</td><td>0.275</td></tr>
+<tr><td>8</td><td>36</td><td>3.60</td><td>5.114</td><td>5.221</td><td>5.218</td><td>5.279</td><td>5.816</td><td>5.921</td><td>0.165</td></tr>
+<tr><td>9</td><td>40</td><td>4.00</td><td>5.118</td><td>5.217</td><td>5.291</td><td>5.309</td><td>5.323</td><td>5.333</td><td>0.060</td></tr>
+<tr><td>10</td><td>39</td><td>3.90</td><td>5.124</td><td>5.208</td><td>5.241</td><td>5.269</td><td>5.308</td><td>5.345</td><td>0.047</td></tr>
+<tr><td>11</td><td>39</td><td>3.90</td><td>5.110</td><td>5.203</td><td>5.229</td><td>5.269</td><td>5.309</td><td>5.312</td><td>0.045</td></tr>
+<tr><td>12</td><td>39</td><td>3.90</td><td>5.110</td><td>5.219</td><td>5.222</td><td>5.238</td><td>5.264</td><td>6.513</td><td>0.215</td></tr>
+<tr><td>13</td><td>39</td><td>3.90</td><td>5.126</td><td>5.214</td><td>5.222</td><td>5.249</td><td>5.269</td><td>6.255</td><td>0.175</td></tr>
+<tr><td>14</td><td>33</td><td>3.30</td><td>5.124</td><td>5.432</td><td>5.282</td><td>6.067</td><td>6.581</td><td>8.099</td><td>0.619</td></tr>
+<tr><td>15</td><td>35</td><td>3.50</td><td>5.150</td><td>6.130</td><td>6.859</td><td>8.112</td><td>10.869</td><td>11.203</td><td>1.662</td></tr>
+<tr><td>16</td><td>35</td><td>3.50</td><td>5.155</td><td>5.591</td><td>5.339</td><td>6.277</td><td>8.238</td><td>11.523</td><td>1.190</td></tr>
+<tr><td>17</td><td>35</td><td>3.50</td><td>5.144</td><td>5.764</td><td>6.671</td><td>6.887</td><td>7.320</td><td>7.617</td><td>0.766</td></tr>
+<tr><td>18</td><td>35</td><td>3.50</td><td>5.139</td><td>5.434</td><td>5.301</td><td>6.318</td><td>7.108</td><td>7.427</td><td>0.602</td></tr>
+<tr><td>19</td><td>39</td><td>3.90</td><td>5.125</td><td>5.219</td><td>5.264</td><td>5.281</td><td>5.331</td><td>5.374</td><td>0.054</td></tr>
+<tr><td>20</td><td>38</td><td>3.80</td><td>5.114</td><td>5.225</td><td>5.223</td><td>5.251</td><td>5.300</td><td>6.372</td><td>0.195</td></tr>
+<tr><td>21</td><td>38</td><td>3.80</td><td>5.134</td><td>5.352</td><td>5.317</td><td>5.389</td><td>6.002</td><td>8.121</td><td>0.482</td></tr>
+<tr><td>22</td><td>37</td><td>3.70</td><td>5.146</td><td>5.636</td><td>5.248</td><td>5.285</td><td>5.338</td><td>21.018</td><td>2.599</td></tr>
+<tr><td>23</td><td>35</td><td>3.50</td><td>5.145</td><td>5.560</td><td>5.744</td><td>6.403</td><td>6.897</td><td>8.214</td><td>0.622</td></tr>
+<tr><td>24</td><td>38</td><td>3.80</td><td>5.137</td><td>5.421</td><td>5.287</td><td>6.434</td><td>7.220</td><td>7.349</td><td>0.546</td></tr>
+<tr><td>25</td><td>37</td><td>3.70</td><td>5.143</td><td>5.258</td><td>5.240</td><td>5.282</td><td>6.188</td><td>6.256</td><td>0.237</td></tr>
+<tr><td>26</td><td>36</td><td>3.60</td><td>5.112</td><td>5.481</td><td>5.288</td><td>6.470</td><td>6.693</td><td>8.457</td><td>0.694</td></tr>
+<tr><td>27</td><td>37</td><td>3.70</td><td>5.147</td><td>5.320</td><td>5.274</td><td>5.339</td><td>5.390</td><td>8.287</td><td>0.505</td></tr>
+<tr><td>28</td><td>39</td><td>3.90</td><td>5.152</td><td>5.233</td><td>5.268</td><td>5.316</td><td>5.387</td><td>5.399</td><td>0.058</td></tr>
+<tr><td>29</td><td>39</td><td>3.90</td><td>5.125</td><td>5.197</td><td>5.229</td><td>5.233</td><td>5.252</td><td>5.307</td><td>0.035</td></tr>
+<tr><td>30</td><td>17</td><td>1.70</td><td>5.146</td><td>5.189</td><td>5.220</td><td>5.239</td><td>5.250</td><td>5.250</td><td>0.032</td></tr>
+</table>
+<h3>Graphs</h3>
+<h4>Response Time: 10 sec time-series</h4>
+<img src="All_Transactions_response_times_intervals.png"></img>
+<h4>Response Time: raw data (all points)</h4>
+<img src="All_Transactions_response_times.png"></img>
+<h4>Throughput: 5 sec time-series</h4>
+<img src="All_Transactions_throughput.png"></img>
+<hr />
+<h2>Custom Timer: Delete</h2>
+<h3>Timer Summary (secs)</h3>
+<table>
+<tr><th>count</th><th>min</th><th>avg</th><th>80pct</th><th>90pct</th><th>95pct</th><th>max</th><th>stdev</th></tr>
+<tr><td>1077</td><td>0.534</td><td>0.809</td><td>1.176</td><td>1.293</td><td>1.515</td><td>5.223</td><td>0.481</td></tr>
+</table>
+<h3>Interval Details (secs)</h3>
+<table>
+<tr><th>interval</th><th>count</th><th>rate</th><th>min</th><th>avg</th><th>80pct</th><th>90pct</th><th>95pct</th><th>max</th><th>stdev</th></tr>
+<tr><td>1</td><td>40</td><td>4.00</td><td>0.617</td><td>1.543</td><td>1.496</td><td>2.531</td><td>4.838</td><td>5.223</td><td>0.883</td></tr>
+<tr><td>2</td><td>36</td><td>3.60</td><td>0.611</td><td>1.278</td><td>1.316</td><td>1.532</td><td>2.466</td><td>2.598</td><td>0.428</td></tr>
+<tr><td>3</td><td>31</td><td>3.10</td><td>0.588</td><td>1.460</td><td>1.426</td><td>2.311</td><td>2.755</td><td>3.707</td><td>0.641</td></tr>
+<tr><td>4</td><td>30</td><td>3.00</td><td>1.171</td><td>1.395</td><td>1.456</td><td>2.190</td><td>2.286</td><td>2.353</td><td>0.317</td></tr>
+<tr><td>5</td><td>37</td><td>3.70</td><td>0.681</td><td>1.512</td><td>2.028</td><td>2.576</td><td>4.224</td><td>4.732</td><td>0.889</td></tr>
+<tr><td>6</td><td>35</td><td>3.50</td><td>0.558</td><td>1.149</td><td>1.263</td><td>1.283</td><td>1.325</td><td>1.340</td><td>0.209</td></tr>
+<tr><td>7</td><td>33</td><td>3.30</td><td>0.594</td><td>1.092</td><td>1.271</td><td>1.365</td><td>1.387</td><td>1.429</td><td>0.272</td></tr>
+<tr><td>8</td><td>36</td><td>3.60</td><td>0.546</td><td>0.630</td><td>0.624</td><td>0.655</td><td>1.173</td><td>1.327</td><td>0.156</td></tr>
+<tr><td>9</td><td>40</td><td>4.00</td><td>0.548</td><td>0.610</td><td>0.638</td><td>0.679</td><td>0.696</td><td>0.697</td><td>0.042</td></tr>
+<tr><td>10</td><td>39</td><td>3.90</td><td>0.548</td><td>0.602</td><td>0.633</td><td>0.655</td><td>0.663</td><td>0.688</td><td>0.034</td></tr>
+<tr><td>11</td><td>39</td><td>3.90</td><td>0.547</td><td>0.593</td><td>0.623</td><td>0.641</td><td>0.657</td><td>0.688</td><td>0.033</td></tr>
+<tr><td>12</td><td>39</td><td>3.90</td><td>0.536</td><td>0.612</td><td>0.601</td><td>0.618</td><td>0.629</td><td>1.873</td><td>0.209</td></tr>
+<tr><td>13</td><td>39</td><td>3.90</td><td>0.534</td><td>0.612</td><td>0.612</td><td>0.638</td><td>0.659</td><td>1.655</td><td>0.174</td></tr>
+<tr><td>14</td><td>33</td><td>3.30</td><td>0.549</td><td>0.710</td><td>0.619</td><td>1.421</td><td>1.445</td><td>1.955</td><td>0.333</td></tr>
+<tr><td>15</td><td>35</td><td>3.50</td><td>0.551</td><td>0.761</td><td>0.667</td><td>0.763</td><td>1.904</td><td>3.565</td><td>0.570</td></tr>
+<tr><td>16</td><td>35</td><td>3.50</td><td>0.551</td><td>0.745</td><td>0.695</td><td>0.720</td><td>2.024</td><td>2.308</td><td>0.400</td></tr>
+<tr><td>17</td><td>35</td><td>3.50</td><td>0.557</td><td>0.839</td><td>0.685</td><td>1.570</td><td>2.594</td><td>3.022</td><td>0.581</td></tr>
+<tr><td>18</td><td>35</td><td>3.50</td><td>0.543</td><td>0.640</td><td>0.612</td><td>0.641</td><td>0.656</td><td>2.366</td><td>0.301</td></tr>
+<tr><td>19</td><td>39</td><td>3.90</td><td>0.541</td><td>0.590</td><td>0.610</td><td>0.636</td><td>0.657</td><td>0.688</td><td>0.033</td></tr>
+<tr><td>20</td><td>38</td><td>3.80</td><td>0.541</td><td>0.624</td><td>0.618</td><td>0.644</td><td>0.661</td><td>1.762</td><td>0.192</td></tr>
+<tr><td>21</td><td>38</td><td>3.80</td><td>0.552</td><td>0.704</td><td>0.666</td><td>0.690</td><td>0.751</td><td>3.563</td><td>0.478</td></tr>
+<tr><td>22</td><td>37</td><td>3.70</td><td>0.557</td><td>0.610</td><td>0.634</td><td>0.649</td><td>0.650</td><td>0.654</td><td>0.027</td></tr>
+<tr><td>23</td><td>35</td><td>3.50</td><td>0.554</td><td>0.754</td><td>0.900</td><td>1.043</td><td>1.913</td><td>2.264</td><td>0.371</td></tr>
+<tr><td>24</td><td>38</td><td>3.80</td><td>0.552</td><td>0.671</td><td>0.663</td><td>0.693</td><td>0.936</td><td>2.705</td><td>0.345</td></tr>
+<tr><td>25</td><td>37</td><td>3.70</td><td>0.554</td><td>0.635</td><td>0.625</td><td>0.680</td><td>0.707</td><td>1.615</td><td>0.169</td></tr>
+<tr><td>26</td><td>36</td><td>3.60</td><td>0.544</td><td>0.681</td><td>0.626</td><td>0.698</td><td>1.845</td><td>2.105</td><td>0.325</td></tr>
+<tr><td>27</td><td>37</td><td>3.70</td><td>0.544</td><td>0.608</td><td>0.648</td><td>0.685</td><td>0.709</td><td>0.767</td><td>0.052</td></tr>
+<tr><td>28</td><td>39</td><td>3.90</td><td>0.544</td><td>0.617</td><td>0.638</td><td>0.671</td><td>0.786</td><td>0.827</td><td>0.054</td></tr>
+<tr><td>29</td><td>39</td><td>3.90</td><td>0.537</td><td>0.586</td><td>0.610</td><td>0.623</td><td>0.653</td><td>0.697</td><td>0.034</td></tr>
+<tr><td>30</td><td>17</td><td>1.70</td><td>0.539</td><td>0.582</td><td>0.611</td><td>0.613</td><td>0.624</td><td>0.624</td><td>0.029</td></tr>
+</table>
+<h3>Graphs</h3>
+<h4>Response Time: 10 sec time-series</h4>
+<img src="Delete_response_times_intervals.png"></img>
+<h4>Response Time: raw data (all points)</h4>
+<img src="Delete_response_times.png"></img>
+<h4>Throughput: 10 sec time-series</h4>
+<img src="Delete_throughput.png"></img>
+<hr />
+<h2>Custom Timer: Load_Front_Page</h2>
+<h3>Timer Summary (secs)</h3>
+<table>
+<tr><th>count</th><th>min</th><th>avg</th><th>80pct</th><th>90pct</th><th>95pct</th><th>max</th><th>stdev</th></tr>
+<tr><td>1077</td><td>0.534</td><td>0.683</td><td>0.625</td><td>0.665</td><td>1.147</td><td>6.632</td><td>0.470</td></tr>
+</table>
+<h3>Interval Details (secs)</h3>
+<table>
+<tr><th>interval</th><th>count</th><th>rate</th><th>min</th><th>avg</th><th>80pct</th><th>90pct</th><th>95pct</th><th>max</th><th>stdev</th></tr>
+<tr><td>1</td><td>40</td><td>4.00</td><td>0.543</td><td>0.779</td><td>0.875</td><td>1.492</td><td>1.528</td><td>2.021</td><td>0.341</td></tr>
+<tr><td>2</td><td>36</td><td>3.60</td><td>0.535</td><td>0.615</td><td>0.607</td><td>0.634</td><td>0.668</td><td>1.581</td><td>0.167</td></tr>
+<tr><td>3</td><td>31</td><td>3.10</td><td>0.541</td><td>0.689</td><td>0.620</td><td>0.696</td><td>1.642</td><td>1.748</td><td>0.316</td></tr>
+<tr><td>4</td><td>30</td><td>3.00</td><td>0.535</td><td>0.602</td><td>0.614</td><td>0.735</td><td>0.746</td><td>0.748</td><td>0.052</td></tr>
+<tr><td>5</td><td>37</td><td>3.70</td><td>0.543</td><td>0.745</td><td>0.682</td><td>1.336</td><td>2.396</td><td>2.527</td><td>0.453</td></tr>
+<tr><td>6</td><td>35</td><td>3.50</td><td>0.542</td><td>0.587</td><td>0.601</td><td>0.618</td><td>0.644</td><td>0.650</td><td>0.026</td></tr>
+<tr><td>7</td><td>33</td><td>3.30</td><td>0.538</td><td>0.586</td><td>0.607</td><td>0.634</td><td>0.638</td><td>0.643</td><td>0.031</td></tr>
+<tr><td>8</td><td>36</td><td>3.60</td><td>0.544</td><td>0.581</td><td>0.598</td><td>0.620</td><td>0.626</td><td>0.632</td><td>0.024</td></tr>
+<tr><td>9</td><td>40</td><td>4.00</td><td>0.542</td><td>0.597</td><td>0.620</td><td>0.652</td><td>0.665</td><td>0.717</td><td>0.036</td></tr>
+<tr><td>10</td><td>39</td><td>3.90</td><td>0.542</td><td>0.595</td><td>0.614</td><td>0.647</td><td>0.653</td><td>0.684</td><td>0.033</td></tr>
+<tr><td>11</td><td>39</td><td>3.90</td><td>0.538</td><td>0.581</td><td>0.600</td><td>0.613</td><td>0.625</td><td>0.636</td><td>0.024</td></tr>
+<tr><td>12</td><td>39</td><td>3.90</td><td>0.542</td><td>0.585</td><td>0.609</td><td>0.612</td><td>0.619</td><td>0.625</td><td>0.021</td></tr>
+<tr><td>13</td><td>39</td><td>3.90</td><td>0.540</td><td>0.587</td><td>0.607</td><td>0.630</td><td>0.652</td><td>0.657</td><td>0.027</td></tr>
+<tr><td>14</td><td>33</td><td>3.30</td><td>0.540</td><td>0.715</td><td>0.620</td><td>0.633</td><td>1.848</td><td>3.483</td><td>0.544</td></tr>
+<tr><td>15</td><td>35</td><td>3.50</td><td>0.540</td><td>1.359</td><td>2.151</td><td>2.602</td><td>6.194</td><td>6.632</td><td>1.643</td></tr>
+<tr><td>16</td><td>35</td><td>3.50</td><td>0.550</td><td>0.834</td><td>0.639</td><td>0.668</td><td>3.599</td><td>5.491</td><td>0.956</td></tr>
+<tr><td>17</td><td>35</td><td>3.50</td><td>0.542</td><td>0.912</td><td>1.465</td><td>2.076</td><td>2.213</td><td>2.697</td><td>0.598</td></tr>
+<tr><td>18</td><td>35</td><td>3.50</td><td>0.543</td><td>0.778</td><td>0.645</td><td>1.731</td><td>2.523</td><td>2.861</td><td>0.551</td></tr>
+<tr><td>19</td><td>39</td><td>3.90</td><td>0.541</td><td>0.599</td><td>0.625</td><td>0.642</td><td>0.656</td><td>0.720</td><td>0.037</td></tr>
+<tr><td>20</td><td>38</td><td>3.80</td><td>0.542</td><td>0.580</td><td>0.600</td><td>0.612</td><td>0.616</td><td>0.624</td><td>0.021</td></tr>
+<tr><td>21</td><td>38</td><td>3.80</td><td>0.549</td><td>0.634</td><td>0.689</td><td>0.709</td><td>0.755</td><td>1.354</td><td>0.131</td></tr>
+<tr><td>22</td><td>37</td><td>3.70</td><td>0.541</td><td>0.586</td><td>0.613</td><td>0.619</td><td>0.647</td><td>0.669</td><td>0.030</td></tr>
+<tr><td>23</td><td>35</td><td>3.50</td><td>0.545</td><td>0.788</td><td>0.785</td><td>1.147</td><td>1.765</td><td>3.605</td><td>0.548</td></tr>
+<tr><td>24</td><td>38</td><td>3.80</td><td>0.547</td><td>0.740</td><td>0.640</td><td>1.480</td><td>1.890</td><td>2.604</td><td>0.442</td></tr>
+<tr><td>25</td><td>37</td><td>3.70</td><td>0.534</td><td>0.614</td><td>0.616</td><td>0.637</td><td>0.668</td><td>1.652</td><td>0.178</td></tr>
+<tr><td>26</td><td>36</td><td>3.60</td><td>0.542</td><td>0.790</td><td>0.609</td><td>1.591</td><td>1.925</td><td>3.578</td><td>0.606</td></tr>
+<tr><td>27</td><td>37</td><td>3.70</td><td>0.553</td><td>0.687</td><td>0.636</td><td>0.682</td><td>0.752</td><td>3.564</td><td>0.488</td></tr>
+<tr><td>28</td><td>39</td><td>3.90</td><td>0.547</td><td>0.591</td><td>0.625</td><td>0.655</td><td>0.670</td><td>0.686</td><td>0.037</td></tr>
+<tr><td>29</td><td>39</td><td>3.90</td><td>0.540</td><td>0.584</td><td>0.610</td><td>0.620</td><td>0.626</td><td>0.650</td><td>0.024</td></tr>
+<tr><td>30</td><td>17</td><td>1.70</td><td>0.549</td><td>0.581</td><td>0.589</td><td>0.616</td><td>0.647</td><td>0.647</td><td>0.025</td></tr>
+</table>
+<h3>Graphs</h3>
+<h4>Response Time: 10 sec time-series</h4>
+<img src="Load_Front_Page_response_times_intervals.png"></img>
+<h4>Response Time: raw data (all points)</h4>
+<img src="Load_Front_Page_response_times.png"></img>
+<h4>Throughput: 10 sec time-series</h4>
+<img src="Load_Front_Page_throughput.png"></img>
+<hr />
+</body>
+</html>
